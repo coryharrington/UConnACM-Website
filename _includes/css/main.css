@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.secondary }};
 }
 
 h1,
@@ -34,6 +34,14 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+}
+
+h2.even-column {
+    color: #fff;
+}
+
+h2.odd-column {
+    color: #{{ site.color.primary }};
 }
 
 hr.star-light,
@@ -63,12 +71,12 @@ hr.star-light {
 }
 
 hr.star-light:after {
-    color: #fff;
+    color: #{{ site.color.secondary }};
     background-color: #{{ site.color.primary }};
 }
 
 hr.star-primary {
-    border-color: #{{ site.color.secondary }};
+    border-color: #{{ site.color.primary }};
 }
 
 hr.star-primary:after {
@@ -212,7 +220,7 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba({{ site.color.primary-rgb }},.9);
+    background: rgba({{ site.color.secondary-rgb }},.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -336,7 +344,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #{{ site.color.primary }};
 }
 
 footer .footer-col {
@@ -345,7 +353,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }};
+    background-color: #{{ site.color.primary }};
 }
 
 .btn-social {
