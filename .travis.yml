@@ -1,0 +1,18 @@
+language: ruby
+rvm:
+- 2.3.3
+
+install: gem install jekyll
+script: jekyll build
+
+sudo: false
+exclude: [vendor]
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  api_key: "H4c3ULuc6akHeBmeeYkKfHId1EMr2GrQkOl4EsWpQ8XtlMu9MYfOJwq5npssL49to77AQD53J7pdiW33+kiqJHGr8TPyhhCkpKlM8nxAjaN7cdU4i+iiCgPtMXFcfxwIZIxNSZAo/zaci1YOlbG1iUiEuIll58ZhGCgaSKuayYF4DX3O402pzoUq9BvaKxMjJNC1YoUDipAbb0u4M5RNsP1ttmuOjypnKP9gsH+4LCKGMO0KahUK+iCBeaNanQkhRrpP2Rc0guiTRS5TEqhf+OnL7n+tNytP3UjqYbyoao++OvhXj5b8cee4LNVpEl7kiUfPJTHzcFL3V71/NX8t1PcgV2d4pw+LsoCrplo7W4Zd0VzzMeaERHUDeZbNNF8qjNUxnkiydUV37KIX5LQ0PEruYSgXhsKNd/jLq2Gu8IC07caG3DodVaEind0xu/opxat1DgtA9SowPFZ3jwncigBumfAtfN3j/rewdRhqKkWyJsCE34rJcJr9gHjKv0ZWlklrutOAECq/BjkxD+lViFPHPizxAh7SKXpzgjOpBNlBYar8V78wwWzefgevNe1SP2ik4ExtRD+X8AocSTmEn7BIuvUmECbnNOG5Q3MUidy8XmorEezVtixDwqqSATMN3vAeMe48lKxdw0zuIENcbwAvIO1IEEepm5STA3Hxe0c="
+  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  on:
+    branch: master
