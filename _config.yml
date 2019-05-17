@@ -60,6 +60,15 @@ address:
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
+# Plugins
+plugins_dir: ./_plugins
+
+# Get Repo
+jekyll_get:
+  - data: github
+    json: 'https://api.github.com/users/brandonmino/repos'
+    cache: false
+
 # Build settings
 markdown: kramdown
 permalink: pretty
