@@ -9,7 +9,7 @@ branches:
 
 install: gem install jekyll
 script:
-  - JEKYLL_ENV=production bundle exec jekyll build
+  - bundle exec jekyll build
 
 sudo: false
 exclude: [vendor]
