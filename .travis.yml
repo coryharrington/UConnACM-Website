@@ -20,7 +20,7 @@ deploy:
   email: brandon.mino@uconn.edu
   name: Brandon
   skip_cleanup: true
-  github-token: GITHUB_TOKEN
+  github-token: $GITHUB_TOKEN
   # Set in the settings page of your repository, as a secure variable
   keep_history: true
   on:
