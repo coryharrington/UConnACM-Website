@@ -9,6 +9,7 @@ branches:
 
 install: gem install jekyll
 script:
+  - bundle update
   - JEKYLL_ENV=production bundle exec jekyll build --destination _site
 
 sudo: false
