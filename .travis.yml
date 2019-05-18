@@ -26,4 +26,4 @@ deploy:
   # Set in the settings page of your repository, as a secure variable
   keep_history: true
   on:
-    branch: release
+    branch: gh-pages
