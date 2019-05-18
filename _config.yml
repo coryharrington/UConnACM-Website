@@ -60,6 +60,9 @@ address:
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
+# Permalinks folders
+relative_permalinks: false
+
 # Plugins
 plugins_dir: ./_plugins
 
