@@ -18,6 +18,8 @@ deploy:
   provider: pages
   local-dir: ./_site
   target-branch: master
+  email: brandon.mino@uconn.edu
+  name: Brandon
   skip_cleanup: true
   github-token: $GITHUB_TOKEN
   # Set in the settings page of your repository, as a secure variable
