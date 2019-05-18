@@ -16,7 +16,7 @@ exclude: [vendor]
 deploy:
   provider: pages
   local-dir: ./_site
-  target-branch: release
+  target-branch: gh-pages
   email: brandon.mino@uconn.edu
   name: Brandon
   skip_cleanup: true
@@ -24,4 +24,4 @@ deploy:
   # Set in the settings page of your repository, as a secure variable
   keep_history: true
   on:
-    branch: gh-pages
+    branch: release
