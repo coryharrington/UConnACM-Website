@@ -3,9 +3,7 @@ cache: bundler
 rvm:
 - 2.3.3
 
-branches:
-  only:
-  - release
+branch: release
 
 install: gem install jekyll
 script:
@@ -18,7 +16,7 @@ exclude: [vendor]
 deploy:
   provider: pages
   local-dir: ./_site
-  target-branch: master
+  target-branch: release
   email: brandon.mino@uconn.edu
   name: Brandon
   skip_cleanup: true
@@ -26,6 +24,4 @@ deploy:
   # Set in the settings page of your repository, as a secure variable
   keep_history: true
   on:
-    branches:
-      only:
-        - gh-pages
+    branch: gh-pages
