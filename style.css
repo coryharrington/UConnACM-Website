@@ -75,12 +75,12 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #fff;
+    border-color: #000e2f;
 }
 
 hr.star-light:after {
     color: #7dc8f9;
-    background-color: #000e2f;
+    background-color: #fff;
 }
 
 hr.star-primary {
@@ -102,7 +102,7 @@ header {
     background: #000e2f;
 }
 
-header .container {
+header .er {
     padding-top: 100px;
     padding-bottom: 50px;
 }
@@ -196,9 +196,14 @@ section h2 {
     font-size: 3em;
 }
 
-section.success {
+setion.subgroups {
     color: #fff;
     background: #000e2f;
+}
+
+section.success {
+    color: #000e2f;
+    background: #fff;
 }
 
 @media(max-width:767px) {
