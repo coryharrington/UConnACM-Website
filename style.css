@@ -241,6 +241,7 @@ section.success {
 
 #subgroups .subgroups-item .subgroups-link .caption:hover {
     opacity: 1;
+    box-shadow: 0px 0px 15px #fff;
 }
 
 #subgroups .subgroups-item .subgroups-link .caption .caption-content {
