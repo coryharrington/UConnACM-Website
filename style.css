@@ -84,12 +84,12 @@ hr.star-light:after {
 }
 
 hr.star-primary {
-    border-color: #000e2f;
+    border-color: #fff;
 }
 
 hr.star-primary:after {
     color: #7dc8f9;
-    background-color: #fff;
+    background-color: #000e2f;
 }
 
 .img-centered {
@@ -196,11 +196,6 @@ section h2 {
     font-size: 3em;
 }
 
-setion.subgroups {
-    color: #fff;
-    background: #000e2f;
-}
-
 section.success {
     color: #000e2f;
     background: #fff;
@@ -214,6 +209,11 @@ section.success {
     section.first {
         padding-top: 75px;
     }
+}
+
+#subgroups {
+    color: #fff;
+    background: #000e2f;
 }
 
 #subgroups .subgroups-item {
@@ -275,7 +275,7 @@ section.success {
 
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #fff;
+    border: solid 2px #000e2f;
     font-size: 20px;
     color: #fff;
     background: 0 0;
@@ -289,6 +289,31 @@ section.success {
     border: solid 2px #fff;
     color: #000e2f;
     background: #fff;
+}
+
+.btn-outline-dark {
+    margin-top: 15px;
+    border: solid 2px #000e2f;
+    font-size: 20px;
+    color: #fff;
+    background: #000e2f;
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline-dark:hover,
+.btn-outline-dark:focus,
+.btn-outline-dark:active,
+.btn-outline-dark.active {
+    border: solid 2px #7dc8f9;
+    color: #fff;
+    background: #7dc8f9;
+}
+
+.btn-success:hover {
+    color: #fff !important;
+    background-color: #7dc8f9 ;
+    border-color: #7dc8f9 ;
+    transition: all .3s ease-in-out;
 }
 
 .floating-label-form-group {
