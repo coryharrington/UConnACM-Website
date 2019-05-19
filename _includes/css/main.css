@@ -76,12 +76,12 @@ hr.star-light:after {
 }
 
 hr.star-primary {
-    border-color: #{{ site.color.primary }};
+    border-color: #fff;
 }
 
 hr.star-primary:after {
     color: #{{ site.color.secondary }};
-    background-color: #fff;
+    background-color: #{{ site.color.primary }};
 }
 
 .img-centered {
@@ -188,11 +188,6 @@ section h2 {
     font-size: 3em;
 }
 
-setion.subgroups {
-    color: #fff;
-    background: #{{ site.color.primary }};
-}
-
 section.success {
     color: #{{ site.color.primary }};
     background: #fff;
@@ -206,6 +201,11 @@ section.success {
     section.first {
         padding-top: 75px;
     }
+}
+
+#subgroups {
+    color: #fff;
+    background: #{{ site.color.primary }};
 }
 
 #subgroups .subgroups-item {
@@ -267,7 +267,7 @@ section.success {
 
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #fff;
+    border: solid 2px #{{ site.color.primary }};
     font-size: 20px;
     color: #fff;
     background: 0 0;
@@ -281,6 +281,31 @@ section.success {
     border: solid 2px #fff;
     color: #{{ site.color.primary }};
     background: #fff;
+}
+
+.btn-outline-dark {
+    margin-top: 15px;
+    border: solid 2px #{{ site.color.primary }};
+    font-size: 20px;
+    color: #fff;
+    background: #{{ site.color.primary }};
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline-dark:hover,
+.btn-outline-dark:focus,
+.btn-outline-dark:active,
+.btn-outline-dark.active {
+    border: solid 2px #{{ site.color.secondary }};
+    color: #fff;
+    background: #{{ site.color.secondary }};
+}
+
+.btn-success:hover {
+    color: #fff !important;
+    background-color: #{{ site.color.secondary }} ;
+    border-color: #{{ site.color.secondary }} ;
+    transition: all .3s ease-in-out;
 }
 
 .floating-label-form-group {
