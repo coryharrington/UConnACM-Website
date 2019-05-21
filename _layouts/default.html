@@ -4,8 +4,11 @@
     <body id="page-top" class="index">
     {% include nav.html %}
     {% include header.html %}
+    <hr class="star-light-primary">
     {% include about.html %}
+    <hr class="star-light-primary">
     {% include subgroups_grid.html %}
+    <hr class="star-light-primary">
 
     {% if site.contact == "static" %}
     {% include contact_static.html %}
@@ -15,6 +18,7 @@
     {% include contact.html %}
     {% endif %}
 
+    <hr class="star-light-primary">
     {% include footer.html %}
     {% include modals.html %}
     {% include js.html %}

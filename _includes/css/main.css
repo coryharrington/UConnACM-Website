@@ -189,8 +189,8 @@ section h2 {
 }
 
 section.success {
-    color: #{{ site.color.primary }};
-    background: #fff;
+    color: #fff;
+    background: #{{ site.color.primary }};
 }
 
 @media(max-width:767px) {
@@ -302,10 +302,36 @@ section.success {
     background: #{{ site.color.secondary }};
 }
 
+.btn-outline-light {
+    margin-top: 15px;
+    border: solid 2px #{{ site.color.secondary }};
+    font-size: 20px;
+    color: #fff;
+    background: #{{ site.color.secondary }};
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline-light:hover,
+.btn-outline-light:focus,
+.btn-outline-light:active,
+.btn-outline-light.active {
+    border: solid 2px #{{ site.color.secondary }};
+    box-shadow: 0px 0px 15px #fff;
+    color: #fff;
+    background: #{{ site.color.secondary }};
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #{{ site.color.secondary }};
+    border-color: #{{ site.color.secondary }};
+}
+
 .btn-success:hover {
-    color: #fff !important;
+    color: #fff;
     background-color: #{{ site.color.secondary }} ;
     border-color: #{{ site.color.secondary }} ;
+    box-shadow: 0px 0px 15px #fff;
     transition: all .3s ease-in-out;
 }
 
@@ -493,4 +519,9 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+}
+
+#contact {
+    color: #fff;
+    background: #{{ site.color.primary }};
 }
