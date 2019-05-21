@@ -522,6 +522,10 @@ footer .footer-below {
     background-color: #7dc8f9 !important;
 }
 
+.navbar-default .navbar-nav>li>a {
+    transition: all .3s ease-in-out !important;
+}
+
 /* Fix modal mouse wheel issues */
 /* https://github.com/twbs/bootstrap/issues/16297 */
 .modal.fade.in {
@@ -542,6 +546,6 @@ footer .footer-below {
 }
 
 .form-control {
-    color: #fff !important; 
+    color: #fff !important;
 }
 
