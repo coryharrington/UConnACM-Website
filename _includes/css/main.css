@@ -525,3 +525,14 @@ footer .footer-below {
     color: #fff;
     background: #{{ site.color.primary }};
 }
+
+.btn-primary:hover {
+    background: #{{ site.color.secondary }} !important;
+    border-color: #{{ site.color.secondary }};
+    transition: all .3s ease-in-out;
+    filter: drop-shadow(0px 0px 10px #fff);
+}
+
+.form-control {
+    color: #fff !important; 
+}
