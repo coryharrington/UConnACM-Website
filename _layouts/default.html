@@ -4,8 +4,11 @@
     <body id="page-top" class="index">
     {% include nav.html %}
     {% include header.html %}
+    <hr class="section-break">
     {% include about.html %}
+    <hr class="section-break">
     {% include subgroups_grid.html %}
+    <hr class="section-break">
 
     {% if site.contact == "static" %}
     {% include contact_static.html %}
@@ -14,6 +17,7 @@
     {% else %}
     {% include contact.html %}
     {% endif %}
+    <hr class="section-break">
 
     {% include footer.html %}
     {% include modals.html %}
