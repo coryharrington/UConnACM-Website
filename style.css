@@ -92,6 +92,10 @@ hr.star-primary:after {
     background-color: #000e2f;
 }
 
+hr.section-break {
+    margin: 0.5px 0 0.5px 0; 
+}
+
 .img-centered {
     margin: 0 auto;
 }
