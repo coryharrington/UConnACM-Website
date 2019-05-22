@@ -440,6 +440,14 @@ footer .footer-below {
   border-color: #{{ site.color.secondary }};
 }
 
+.btn-default:hover {
+  color: #fff;
+  background-color: #{{ site.color.secondary }};
+  border-color: #{{ site.color.secondary }};
+  box-shadow: 0px 0px 15px #fff;
+  transition: all .3s ease-in-out;
+}
+
 .scroll-top {
     z-index: 1049;
     position: fixed;
