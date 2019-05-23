@@ -16,22 +16,19 @@
                                 <p class="modal-post-text">{{ post.description }}</p>
                             {% endif %}
                             <ul class="list-inline item-details">
-                                {% if post.client %}
-                                    <li>Client:
-                                        <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
-                                        </strong>
+                                {% if post.author %}
+                                    <li><strong>Writen By:</strong>
+                                        <a href="http://startbootstrap.com">{{ post.author }}</a>
                                     </li>
                                 {% endif %}
                                 {% if post.project-date %}
-                                    <li>Date:
-                                        <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
-                                        </strong>
+                                    <li><strong>Date:</strong>
+                                        <a href="http://startbootstrap.com">{{ post.project-date }}</a>
                                     </li>
                                 {% endif %}
                                 {% if post.category %}
-                                    <li>Service:
-                                        <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
-                                        </strong>
+                                    <li><strong>Topic:</strong>
+                                        <a href="http://startbootstrap.com">{{ post.category }}</a>
                                     </li>
                                 {% endif %}
                             </ul>
