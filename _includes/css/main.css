@@ -804,3 +804,26 @@ footer .footer-below {
 .form-control {
     color: #fff !important;
 }
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  height: 100px;
+  border-radius: 0px;
+  background: #{{ site.color.primary }};
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #{{ site.color.secondary }};
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: linear-gradient(left, #{{ site.color.secondary }}, #{{ site.color.secondary }});
+}
