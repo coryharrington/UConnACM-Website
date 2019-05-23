@@ -1,3 +1,5 @@
+<script src="https://code.iconify.design/1/1.0.2/iconify.min.js"></script>
+
 # UConnACM-Website
 Website for UConn ACM Chapter
 
