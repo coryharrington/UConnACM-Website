@@ -1,0 +1,20 @@
+
+    <!-- leadership Grid Section -->
+    <section id="leadership">
+        <div class="container">
+            <div class="row">
+                {% for post in site.categories.leadership %}
+                    <div class="col-sm-4 leadership-item">
+                        <a href="#leadershipModal-{{ post.modal-id }}" class="leadership-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/leadership/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
