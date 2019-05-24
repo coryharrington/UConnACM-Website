@@ -563,6 +563,8 @@ footer .footer-below {
 #leadership {
     color: #fff;
     background: #{{ site.color.primary }};
+    margin-top: -75px;
+    margin-bottom: -25px;
 }
 
 #leadership .leadership-item {
