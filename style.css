@@ -273,6 +273,9 @@ section.success {
 }
 
 @media(min-width:767px) {
+    #leadership .leadership-item {
+        margin: 0 0 30px;
+    }
     #subgroups .subgroups-item {
         margin: 0 0 30px;
     }
@@ -563,6 +566,124 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+}
+
+#leadership {
+    color: #fff;
+    background: #000e2f;
+    margin-top: -75px;
+    margin-bottom: -25px;
+}
+
+#leadership .leadership-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+#leadership .leadership-item .leadership-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#leadership .leadership-item .leadership-link .caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(125,200,249,.9);
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+#leadership .leadership-item .leadership-link .caption:hover {
+    opacity: 1;
+    box-shadow: 0px 0px 15px #fff;
+}
+
+#leadership .leadership-item .leadership-link .caption .caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+#leadership .leadership-item .leadership-link .caption .caption-content i {
+    margin-top: -12px;
+}
+
+#leadership .leadership-item .leadership-link .caption .caption-content h3,
+#leadership .leadership-item .leadership-link .caption .caption-content h4 {
+    margin: 0;
+}
+
+#leadership * {
+    z-index: 2;
+}
+
+.leadership-modal .modal-content {
+    padding: 100px 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.leadership-modal .modal-content h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.leadership-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.leadership-modal .modal-content .item-details {
+    margin: 30px 0;
+}
+
+.leadership-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.leadership-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.leadership-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #7dc8f9;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.leadership-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: #7dc8f9;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 
 #projects {
