@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 2
+date: 2019-06-06
+img: PokerBot.png
+alt: image-alt
+project-date: June 06, 2019
+author: Jamie Moschella
+category: Machine Learning
+description: Use this area of the page to describe your project!
+
+---
