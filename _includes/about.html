@@ -11,18 +11,30 @@
             <section id="leadership">
                 <div class="container">
                     <div class="row">
-                        {% for post in site.categories.leadership %}
-                            <div class="col-sm-2 leadership-item">
-                                <a href="#leadershipModal-{{ post.modal-id }}" class="leadership-link" data-toggle="modal">
-                                    <div class="caption">
-                                        <div class="caption-content">
-                                            <i class="fa fa-search-plus fa-3x"></i>
-                                        </div>
-                                    </div>
-                                    <img src="img/leadership/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                                </a>
-                            </div>
-                        {% endfor %}
+                        <div class="col-sm-3">
+                            <figure class="figure">
+                                <img src="img/leadership/Cory_Harrington.png" class="figure-img img-fluid leadership-size">
+                                <figcaption class="figure-caption text-center leadership-size"><b>President:</b><br>Cory Harrington</figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-sm-3">
+                            <figure class="figure">
+                                <img src="img/leadership/Brandon_Mino.png" class="figure-img img-fluid leadership-size">
+                                <figcaption class="figure-caption text-center leadership-size"><b>Vice President:</b><br>Brandon Mino</figcaption>
+                            </figure>
+                       </div>
+                       <div class="col-sm-3">
+                            <figure class="figure">
+                                <img src="img/leadership/Nicole_Nguyen.png" class="figure-img img-fluid leadership-size">
+                                <figcaption class="figure-caption text-center leadership-size"><b>Treasurer:</b><br>Nicole Nguyen</figcaption>
+                            </figure>
+                      </div>
+                      <div class="col-sm-3">
+                            <figure class="figure">
+                                <img src="img/leadership/Jack_Winkelman.png" class="figure-img img-fluid leadership-size">
+                                <figcaption class="figure-caption text-center leadership-size"><b>Secretary:</b><br>Jack Winkelman</figcaption>
+                            </figure>
+                        </div>
                     </div>
                 </div>
             </section>
