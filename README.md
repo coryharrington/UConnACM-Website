@@ -1,5 +1,6 @@
 # UConnACM-Website
 Website for UConn ACM Chapter
+Hosted by Netlify at: https://uconnacm.netlify.com/
 
 <img src="https://img.icons8.com/color/50/000000/travis-ci.png"> [![Build Status](https://travis-ci.org/brandonmino/UConnACM-Website.svg?branch=release)](https://travis-ci.org/brandonmino/UConnACM-Website) 
 
