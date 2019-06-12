@@ -9,17 +9,19 @@
                 </div>
             </div>
             <div class="row">
-                {% for post in site.categories.tutorials %}
-                    <div class="col-sm-4 tutorials-item">
-                        <a href="#tutorialsModal-{{ post.modal-id }}" class="tutorials-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
+                {% for image in site.static_files %}
+                    {% if image.path contains 'img/tutorials' %}
+                        <div class="col-sm-4 tutorials-item">
+                            <a href="#tutorialsModal-{{ image.name | replace: ".png", "" }}" class="tutorials-link" data-toggle="modal" data-target="#{{ image.name | replace: ".png", "" }}">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
                                 </div>
-                            </div>
-                            <img src="img/tutorials/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                        </a>
-                    </div>
+                                <img src="{{ image.path }}" class="img-responsive">
+                            </a>
+                        </div>
+                    {% endif %}
                 {% endfor %}
             </div>
         </div>
