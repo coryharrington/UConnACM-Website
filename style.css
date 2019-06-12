@@ -587,6 +587,7 @@ footer .footer-below {
 .figure {
     float: center;
     width: 100%;
+    font-size: 18px;
 }
 
 #projects {
