@@ -12,7 +12,7 @@
                 {% for image in site.static_files %}
                     {% if image.path contains 'img/tutorials' %}
                         <div class="col-sm-4 tutorials-item">
-                            <a href="#tutorialsModal-{{ image.name | replace: ".png", "" }}" class="tutorials-link" data-toggle="modal">
+                            <a class="tutorials-link" data-toggle="modal" data-target="#tutorialsModal-{{ image.name | replace: ".png", "" }}">
                                 <div class="caption">
                                     <div class="caption-content">
                                         <i class="fa fa-search-plus fa-3x"></i>
