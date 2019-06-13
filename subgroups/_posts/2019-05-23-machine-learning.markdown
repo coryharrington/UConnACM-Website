@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 2
+modal-id: machine-learning
 date: 2019-05-19
 img: MachineLearning.png
 alt: image-alt

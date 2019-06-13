@@ -11,7 +11,7 @@
             <div class="row">
                 {% for post in site.categories.subgroups %}
                     <div class="col-sm-4 subgroups-item">
-                        <a href="#subgroupsModal-{{ post.modal-id }}" class="subgroups-link" data-toggle="modal">
+                        <a class="subgroups-link" data-toggle="modal" data-target="#subgroupsModal-{{ post.modal-id }}">
                             <div class="caption">
                                 <div class="caption-content">
                                     <i class="fa fa-search-plus fa-3x"></i>
