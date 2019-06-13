@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator>
   <link href="https://brandonmino.github.io/UConnACM-Website//feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://brandonmino.github.io/UConnACM-Website//" rel="alternate" type="text/html" />
-  <updated>2019-06-13T01:12:53+00:00</updated>
+  <updated>2019-06-13T02:27:02+00:00</updated>
   <id>https://brandonmino.github.io/UConnACM-Website//</id>
 
   
@@ -191,11 +191,79 @@
   
     <entry>
       <title type="html">Github</title>
-      <link href="https://brandonmino.github.io/UConnACM-Website//tutorials/web%20development/2014/07/18/GitHub/" rel="alternate" type="text/html" title="Github" />
+      <link href="https://brandonmino.github.io/UConnACM-Website//tutorials/slack/web%20development/2014/07/18/Github/" rel="alternate" type="text/html" title="Github" />
       <published>2014-07-18T00:00:00+00:00</published>
       <updated>2014-07-18T00:00:00+00:00</updated>
-      <id>https://brandonmino.github.io/UConnACM-Website//tutorials/web%20development/2014/07/18/GitHub</id>
-      <content type="html" xml:base="https://brandonmino.github.io/UConnACM-Website//tutorials/web%20development/2014/07/18/GitHub/"></content>
+      <id>https://brandonmino.github.io/UConnACM-Website//tutorials/slack/web%20development/2014/07/18/Github</id>
+      <content type="html" xml:base="https://brandonmino.github.io/UConnACM-Website//tutorials/slack/web%20development/2014/07/18/Github/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Herbert Davis</name>
+        
+        
+      </author>
+
+      
+        <category term="Web Development" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Github</title>
+      <link href="https://brandonmino.github.io/UConnACM-Website//tutorials/other/web%20development/2014/07/18/Github/" rel="alternate" type="text/html" title="Github" />
+      <published>2014-07-18T00:00:00+00:00</published>
+      <updated>2014-07-18T00:00:00+00:00</updated>
+      <id>https://brandonmino.github.io/UConnACM-Website//tutorials/other/web%20development/2014/07/18/Github</id>
+      <content type="html" xml:base="https://brandonmino.github.io/UConnACM-Website//tutorials/other/web%20development/2014/07/18/Github/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Herbert Davis</name>
+        
+        
+      </author>
+
+      
+        <category term="Web Development" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Github</title>
+      <link href="https://brandonmino.github.io/UConnACM-Website//tutorials/github/web%20development/2014/07/18/Github/" rel="alternate" type="text/html" title="Github" />
+      <published>2014-07-18T00:00:00+00:00</published>
+      <updated>2014-07-18T00:00:00+00:00</updated>
+      <id>https://brandonmino.github.io/UConnACM-Website//tutorials/github/web%20development/2014/07/18/Github</id>
+      <content type="html" xml:base="https://brandonmino.github.io/UConnACM-Website//tutorials/github/web%20development/2014/07/18/Github/"></content>
 
       
       
@@ -225,11 +293,11 @@
   
     <entry>
       <title type="html">Slack</title>
-      <link href="https://brandonmino.github.io/UConnACM-Website//tutorials/web%20development/2014/07/17/Slack/" rel="alternate" type="text/html" title="Slack" />
+      <link href="https://brandonmino.github.io/UConnACM-Website//tutorials/slack/web%20development/2014/07/17/Slack/" rel="alternate" type="text/html" title="Slack" />
       <published>2014-07-17T00:00:00+00:00</published>
       <updated>2014-07-17T00:00:00+00:00</updated>
-      <id>https://brandonmino.github.io/UConnACM-Website//tutorials/web%20development/2014/07/17/Slack</id>
-      <content type="html" xml:base="https://brandonmino.github.io/UConnACM-Website//tutorials/web%20development/2014/07/17/Slack/"></content>
+      <id>https://brandonmino.github.io/UConnACM-Website//tutorials/slack/web%20development/2014/07/17/Slack</id>
+      <content type="html" xml:base="https://brandonmino.github.io/UConnACM-Website//tutorials/slack/web%20development/2014/07/17/Slack/"></content>
 
       
       
@@ -258,12 +326,12 @@
     </entry>
   
     <entry>
-      <title type="html">Other</title>
-      <link href="https://brandonmino.github.io/UConnACM-Website//tutorials/web%20development/2014/07/16/Other/" rel="alternate" type="text/html" title="Other" />
-      <published>2014-07-16T00:00:00+00:00</published>
-      <updated>2014-07-16T00:00:00+00:00</updated>
-      <id>https://brandonmino.github.io/UConnACM-Website//tutorials/web%20development/2014/07/16/Other</id>
-      <content type="html" xml:base="https://brandonmino.github.io/UConnACM-Website//tutorials/web%20development/2014/07/16/Other/"></content>
+      <title type="html">Slack</title>
+      <link href="https://brandonmino.github.io/UConnACM-Website//tutorials/other/web%20development/2014/07/17/Slack/" rel="alternate" type="text/html" title="Slack" />
+      <published>2014-07-17T00:00:00+00:00</published>
+      <updated>2014-07-17T00:00:00+00:00</updated>
+      <id>https://brandonmino.github.io/UConnACM-Website//tutorials/other/web%20development/2014/07/17/Slack</id>
+      <content type="html" xml:base="https://brandonmino.github.io/UConnACM-Website//tutorials/other/web%20development/2014/07/17/Slack/"></content>
 
       
       
@@ -272,7 +340,7 @@
       
 
       <author>
-          <name>Jim John</name>
+          <name>James Lame</name>
         
         
       </author>
